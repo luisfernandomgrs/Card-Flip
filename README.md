@@ -3,4 +3,4 @@
 <p>Este projeto usa o modelo proposto no canal FreeFrontend</p>
 <p>O vídeo do author pode ser conferido aqui:</p>
 
-<code>https://codepen.io/hellomp/pen/ZvrmdN</code>
+<code>https://www.youtube.com/watch?v=29IQwtXVYqA</code>
