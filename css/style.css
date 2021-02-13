@@ -1,0 +1,50 @@
+body {
+    /* background: #cfd8dc; */
+    width: 100%;
+    height: 100vh;
+    background: url(../images/bg.jpg);
+    background-size: cover; /* contain; */
+
+}
+.card-container {
+    font-family: 'Open Sans',sans-serif;
+    font-size: 120px;
+    font-weight: bold;
+    width: 400px;
+    height: 250px;
+    margin: 80px auto;
+    border-radius: 10px;
+    perspective: 1400px;
+    /* border: 2px solid red; */
+}
+.card {
+    position: relative;
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
+    transform-style: preserve-3d;
+    /* border: 2px solid blue; */
+}
+.front,
+.back {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    backface-visibility: hidden;
+    /* border: 2px solid violet; */
+}
+.front {
+    color: #fff;
+    background: #2196f3;
+}
+.back {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transform: rotateY(180deg);
+    color: #2196f3;
+    background: #fff;
+}
